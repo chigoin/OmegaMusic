@@ -1,0 +1,83 @@
+@charset "utf-8";
+/**************************************************
+ * Omega v1.0
+ * 播放器样式表文件
+ * 编写：faiz
+ * 时间：2018-6-30
+ *************************************************/
+
+/*定义鼠标滑轮事件*/
+.mousewheel{
+    background-image: url('../images/first_page.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+/*定义滑动图标的动画*/
+.slide_icon{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('../images/neoslide.png');
+    position: relative;
+    left:48%;top:70%;
+    animation-name:web_first;
+    animation-duation:1.8s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    /*Safari与Chrome*/
+    -webkit-animation-name: web_first;
+    -webkit-animation-duration: 1.8s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+@keyframes web_first {
+    0% {left:48%;top:70%;background-image: url("../images/neoslide.png")}
+    /*50% {left:48%;top:72.5%;background-image: url("../images/neoslide2.png")}*/
+    100%{left: 48%;top:75%;background-image: url("../images/neoslide2.png")}
+}*
+
+/*Safari and Chorome*/
+@-webkit-keyframes web_first {
+    0% {left:48%;top:70%;background-image: url("../images/neoslide.png")}
+    /*50% {left:48%;top:72.5%;background-image: url("../images/neoslide2.png")}*/
+    100%{left: 48%;top:75%;background-image: url("../images/neoslide2.png")}
+}
+/*qq样式*/
+.btn_qq{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('../images/qq.png');
+    position: absolute;
+    top: 90%;
+    right: 15%;
+}
+/*wechat样式*/
+.btn_wechat{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('../images/wechat.png');
+    position: absolute;
+    top: 90%;
+    right: 10%;
+}
+/*about样式*/
+.btn_about{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('../images/about.png');
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
+

@@ -47,9 +47,13 @@
 
     <!--首页样式-->
     <link rel="stylesheet" href="css/animation.css"/>
+
+    <!--Tippy样式-->
+    <link rel="stylesheet" href="css/tippy.css"/>
 </head>
 <body>
-<script src="http://unpkg.com/tippy.js@2.5.3/dist/tippy.all.min.js"></script>
+<!--<script src="http://unpkg.com/tippy.js@2.5.3/dist/tippy.all.min.js"></script>-->
+<script src="js/tippy.all.js"></script>
 <!--首页-->
  <div  id="first_page" class="mousewheel">
 
@@ -64,21 +68,22 @@
         Omega
     </div>
      <div class="introduce">MusicOnline</div>
+     <span class="box">向下滑动</span>
      <div class="slide_icon" style="height: 100px;width: 100px" title="move down">
      </div>
      <div class="btn_qq" style="height: 32px;width: 32px"></div>
-     <divx class="btn_wechat" style="height: 32px;width: 32px"></divx>
+     <div class="btn_wechat" style="height: 32px;width: 32px"></div>
      <div class="btn_about" style="height: 32px;width: 32px"></div>
-     <script src="js/tippy.js"></script>
+     <script src="js/tippy_introduce.js"></script>
      <!--<script>
          tippy('.btn_qq',{
              delay:100,
              arrow:true,
              arrowType:'round',
              size:'large',
+             html:'#Template1',
              duration:500,
              animation:'scale',
-             html:'#Template1',
          });
          tippy('.btn_wechat',{
              delay:100,
@@ -231,11 +236,7 @@
 <!-- 背景模糊化插件 -->
 <script src="js/background-blur.min.js"></script>
 
-<!-- 站长统计代码 -->
-<span style="display: none">
-    <!-- 各类统计代码都放在这里…… -->
-    
-</span>
+
 
 </body>
 </html>

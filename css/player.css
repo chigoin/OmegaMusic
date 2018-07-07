@@ -630,10 +630,11 @@ body {
 }
 .info-btn {
     cursor: pointer;
-    color: #31c27c;
+    color: #19a8c2;
 }
 .info-btn:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: #b3dcff;
 }
 /* 底部 */
 .footer {

@@ -81,3 +81,168 @@
     right: 5%;
 }
 
+/*字体闪烁*/
+.box{
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+    left:48%;
+    top:90%;
+    background: linear-gradient(left, #93947e,#ecffe7);
+    background: -webkit-linear-gradient(left, #93947e ,#ecffe7);
+    background: -o-linear-gradient(right, #93947e,#ecffe7 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:scratchy 1.7s linear forwards infinite;
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation:scratchy 2s linear forwards infinite;
+    -moz-animation: scratchy 2s linear forwards infinite;
+    -ms-animation: scratchy 2s linear forwards infinite;
+    -o-animation: scratchy 2s linear forwards infinite;
+}
+@keyframes  scratchy {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 0 0;
+    }
+    26% {
+        background-position: 25px -25px;
+    }
+    50% {
+        background-position: 25px -25px;
+    }
+    51% {
+        background-position: 50px -50px;
+    }
+    75% {
+        background-position: 50px -50px;
+    }
+    76% {
+        background-position: 75px -75px;
+    }
+    99% {
+        background-position: 75px -75px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+/* 添加兼容性前缀 */
+@-webkit-keyframes scratchy {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 0 0;
+    }
+    26% {
+        background-position: 25px -25px;
+    }
+    50% {
+        background-position: 25px -25px;
+    }
+    51% {
+        background-position: 50px -50px;
+    }
+    75% {
+        background-position: 50px -50px;
+    }
+    76% {
+        background-position: 75px -75px;
+    }
+    99% {
+        background-position: 75px -75px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+@-moz-keyframes scratchy {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 0 0;
+    }
+    26% {
+        background-position: 25px -25px;
+    }
+    50% {
+        background-position: 25px -25px;
+    }
+    51% {
+        background-position: 50px -50px;
+    }
+    75% {
+        background-position: 50px -50px;
+    }
+    76% {
+        background-position: 75px -75px;
+    }
+    99% {
+        background-position: 75px -75px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+@-ms-keyframes scratchy {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 0 0;
+    }
+    26% {
+        background-position: 20px -20px;
+    }
+    50% {
+        background-position: 20px -20px;
+    }
+    51% {
+        background-position: 40px -40px;
+    }
+    75% {
+        background-position: 40px -40px;
+    }
+    76% {
+        background-position: 60px -60px;
+    }
+    99% {
+        background-position: 60px -60px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+@-o-keyframes scratchy {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 0 0;
+    }
+    26% {
+        background-position: 20px -20px;
+    }
+    50% {
+        background-position: 20px -20px;
+    }
+    51% {
+        background-position: 40px -40px;
+    }
+    75% {
+        background-position: 40px -40px;
+    }
+    76% {
+        background-position: 60px -60px;
+    }
+    99% {
+        background-position: 60px -60px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

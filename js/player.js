@@ -474,6 +474,6 @@ function listDelete(no,list) {
     musicList[list].item.splice(no,1);//删除歌曲
     // 正在播放 列表项已发生变更，进行保存
     playerSavedata('playing', musicList[1].item);   // 保存正在播放列表
-    loadList(list)//显示播放列表
+    loadList(list,true)//显示播放列表
     return true;
 }

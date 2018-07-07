@@ -40,8 +40,8 @@ $(function(){
         rem.sheetList = $("#sheet");
         rem.mainList = $("#main-list");
     } else {
-        // 滚动条初始化(只在非移动端启用滚动条控件)
-        $("#main-list,#sheet").mCustomScrollbar({
+                // 滚动条初始化(只在非移动端启用滚动条控件)
+                $("#main-list,#sheet").mCustomScrollbar({
             theme:"minimal",
             advanced:{
                 updateOnContentResize: true // 数据更新后自动刷新滚动条
@@ -163,21 +163,26 @@ $(function(){
     
     // 点击同步云音乐
     $("#sheet").on("click",".login-in", function() {
+        layer.config({
+            extend: 'new_theme/style.css' //同样需要加载新皮肤
+        });
+
         layer.prompt(
-        {
-            title: '请输入您的网易云 UID',
-            // value: '',  // 默认值
-            btn: ['确定', '取消', '帮助'],
-            btn3: function(index, layero){
-                layer.open({
-                    title: '如何获取您的网易云UID？'
-                    ,shade: 0.6 //遮罩透明度
-                    ,anim: 0 //0-6的动画形式，-1不开启
-                    ,content: 
-                    '1、首先<a href="http://music.163.com/" target="_blank">点我(http://music.163.com/)</a>打开网易云音乐官网<br>' +
-                    '2、然后点击页面右上角的“登录”，登录您的账号<br>' + 
-                    '3、点击您的头像，进入个人中心<br>' + 
-                    '4、此时<span style="color:red">浏览器地址栏</span> <span style="color: green">/user/home?id=</span> 后面的<span style="color:red">数字</span>就是您的网易云 UID'
+            {
+                skin: 'layui-layer-orange',
+                title: '请输入您的网易云 UID',
+                // value: '',  // 默认值
+                btn: ['确定', '取消', '帮助'],
+                btn3: function(index, layero){
+                    layer.open({
+                        title: '如何获取您的网易云UID？'
+                        ,shade: 0.6 //遮罩透明度
+                         ,anim: 0 //0-6的动画形式，-1不开启
+                        ,content:
+                         '1、首先<a href="http://music.163.com/" target="_blank">点我(http://music.163.com/)</a>打开网易云音乐官网<br>' +
+                        '2、然后点击页面右上角的“登录”，登录您的账号<br>' +
+                        '3、点击您的头像，进入个人中心<br>' +
+                         '4、此时<span style="color:red">浏览器地址栏</span> <span style="color: green">/user/home?id=</span> 后面的<span style="color:red">数字</span>就是您的网易云 UID'
                 });  
             }
         },
@@ -206,7 +211,7 @@ $(function(){
         clearUserlist();
     });
     
-    // 播放、暂停按钮的处理
+    // 音乐信息的处理
     $("#music-info").click(function(){
         if(rem.playid === undefined) {
             layer.msg('请先播放歌曲');
@@ -283,28 +288,59 @@ $(function(){
 
 
 // 展现系统列表中任意首歌的歌曲信息
-function musicInfo(list, index) {
+/*function musicInfo(list, index) {
     var music = musicList[list].item[index];
-    var tempStr = '<span class="info-title">歌名：</span>' + music.name + 
-    '<br><span class="info-title">歌手：</span>' + music.artist + 
-    '<br><span class="info-title">专辑：</span>' + music.album;
-    
+    var tempStr =
+        '<span class="info-title">歌名：</span>' + music.name +
+        '<br><span class="info-title">歌手：</span>' + music.artist +
+        '<br><span class="info-title">专辑：</span>' + music.album;
+
     if(list == rem.playlist && index == rem.playid) {   // 当前正在播放这首歌，那么还可以顺便获取一下时长。。
         tempStr += '<br><span class="info-title">时长：</span>' + formatTime(rem.audio[0].duration);
     }
-    
-    tempStr += '<br><span class="info-title">操作：</span>' + 
-    '<span class="info-btn" onclick="thisDownload(this)" data-list="' + list + '" data-index="' + index + '">下载</span>' + 
-    '<span style="margin-left: 10px" class="info-btn" onclick="thisShare(this)" data-list="' + list + '" data-index="' + index + '">外链</span>';
-    
+
+    tempStr += '<br><span class="info-title">操作：</span>' +
+    '<span class="info-btn" onclick="thisDownload(this)" data-list="' + list + '" data-index="' + index + '">下载</span>' +
+    '<span style="margin-left: 10px" class="info-btn" onclick="thisShare(this)" data-list="' + list + '" data-index="' + index + '">外链</span>'
+    ;
+
     layer.open({
         type: 0,
         shade: false,
         title: false, //不显示标题
         btn: false,
-        content: tempStr
+        content: tempStr,
+
+    });*/
+function musicInfo(list, index) {
+    var music = musicList[list].item[index];
+    /*var tempStr =
+      /* '<div style="background-color: rgba(0,0,0,0.1)"><span class="info-title">歌名：</span>' + music.name +
+        '<br><span class="info-title">歌手：</span>' + music.artist +
+        '<br><span class="info-title">专辑：</span>' + music.album;
+
+    if(list == rem.playlist && index == rem.playid) {   // 当前正在播放这首歌，那么还可以顺便获取一下时长。。
+        tempStr += '<br><span class="info-title">时长：</span>' + formatTime(rem.audio[0].duration);
+    }
+    tempStr += '<br><span class="info-title">操作：</span>' +
+        '<span class="info-btn" onclick="thisDownload(this)" data-list="' + list + '" data-index="' + index + '">下载</span>' +
+        '<span style="margin-left: 10px" class="info-btn" onclick="thisShare(this)" data-list="' + list + '" data-index="' + index + '">外链</span>' +
+        '</div>';
+
+
+    /*layer.open({
+        type: 0,
+        shade: false,
+        title: false, //不显示标题
+        btn: false,
+        content: tempStr,
+        offset:['75%','70%'],
+        style:'background-color:rgba(143,256,647,0.3)',
+    });*/
+    layer.msg('歌名:'+music.name+'<br>'+'作者:'+music.artist+'<br>'+'专辑:'+music.album,{
+        time:2000,
+        offset:['60%','85%']
     });
-    
     if(mkPlayer.debug) {
         console.info('id: "' + music.id + '",\n' + 
         'name: "' + music.name + '",\n' +
@@ -485,7 +521,7 @@ function changeCover(music) {
 
 
 // 向列表中载入某个播放列表
-function loadList(list) {
+function loadList(list,loaddelete) {
     if(musicList[list].isloading === true) {
         layer.msg('列表读取中...', {icon: 16,shade: 0.01,time: 500});
         return true;
@@ -536,7 +572,7 @@ function loadList(list) {
             refreshList();  // 刷新列表，添加正在播放样式
         }
         
-        listToTop();    // 播放列表滚动到顶部
+        if (!loaddelete)listToTop();    // 播放列表滚动到顶部
     }
 }
 
@@ -694,12 +730,13 @@ function sheetBar() {
     if(playerReaddata('uid')) {
         barHtml = '已同步 ' + rem.uname + ' 的歌单 <span class="login-btn login-refresh">[刷新]</span> <span class="login-btn login-out">[退出]</span>';
     } else {
-        barHtml = '我的歌单 <span class="login-btn login-in">[点击同步]</span>';
+        barHtml = '<span class="login-btn login-in">[点击同步]</span>';
     }
     barHtml = '<span id="sheet-bar"><div class="clear-fix"></div>' +
     '<div id="user-login" class="sheet-title-bar">' + barHtml + 
     '</div></span>'; 
     rem.sheetList.append(barHtml);
+
 }
 
 // 选择要显示哪个数据区

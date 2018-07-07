@@ -1,4 +1,15 @@
-body .layui-layer-orange .layui-layer-title{background:rgba(123,100,89,0.2); color:#FFFFFF; border: none;}
-body .layui-layer-orange .layui-layer-btn a{background:#ff9000;color:#FFFFFF;}
-body .layui-layer-orange .layui-layer-btn .layui-layer-btn1{background:#ff9000;}
-body .layui-layer-orange .layui-layer-btn .layui-layer-btn0{border: none;}
+body .layui-layer-neo .layui-layer-title{background-color: rgba(0,0,0,0.2); color:#FFFFFF; border: none;}
+body .layui-layer-neo .layui-layer-btn a{background-color: rgba(0,0,0,0.2);;color:#FFFFFF;border: none;}
+body .layui-layer-neo .layui-layer-btn .layui-layer-btn1{background-color: rgba(0,0,0,0.2);border: none;}
+body .layui-layer-neo .layui-layer-btn .layui-layer-btn0{border: none;}
+body .layui-layer-neo .layui-layer-input{
+    position:absolute;
+    top:30%;
+    left:10%;
+    width: 80%;
+    height:30px;
+    border-radius:15px;
+    border:3px;
+    background-color: rgba(225,225,225,0.4);
+    padding-left:15px;/*这里的值可以改变光标的位置*/
+}

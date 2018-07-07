@@ -167,32 +167,46 @@ $(function(){
             extend: 'new_theme/style.css' //同样需要加载新皮肤
         });
 
-        layer.prompt(
+        var index1 =layer.prompt(
             {
-                skin: 'layui-layer-orange',
+                skin: 'layui-layer-neo',
                 title: '请输入您的网易云 UID',
                 // value: '',  // 默认值
                 btn: ['确定', '取消', '帮助'],
                 btn3: function(index, layero){
-                    layer.open({
+                    var index2= layer.open({
+                        skin: 'layui-layer-neo',
                         title: '如何获取您的网易云UID？'
                         ,shade: 0.6 //遮罩透明度
-                         ,anim: 0 //0-6的动画形式，-1不开启
+                        ,anim: 0 //0-6的动画形式，-1不开启
                         ,content:
-                         '1、首先<a href="http://music.163.com/" target="_blank">点我(http://music.163.com/)</a>打开网易云音乐官网<br>' +
+                        '1、首先<a href="http://music.163.com/" target="_blank">点我(http://music.163.com/)</a>打开网易云音乐官网<br>' +
                         '2、然后点击页面右上角的“登录”，登录您的账号<br>' +
                         '3、点击您的头像，进入个人中心<br>' +
-                         '4、此时<span style="color:red">浏览器地址栏</span> <span style="color: green">/user/home?id=</span> 后面的<span style="color:red">数字</span>就是您的网易云 UID'
-                });  
-            }
-        },
-        function(val, index){   // 输入后的回调函数
-            if(isNaN(val)) {
-                layer.msg('uid 只能是数字',{anim: 6});
-                return false;
-            }
-            layer.close(index);     // 关闭输入框
-            ajaxUserList(val);
+                        '4、此时<span style="color:#31e1ff">浏览器地址栏</span> <span style="color: #a757ea">/user/home?id=</span> 后面的<span style="color:#8fffb2">数字</span>就是您的网易云 UID'
+                    });
+                    layer.style(index2, {
+                        "background-color": 'rgba(225,225,225,0.6)',
+
+                        /*"opacity": 0.0*/
+                    });
+
+                }
+            },
+            function(val, index){   // 输入后的回调函数
+                if(isNaN(val)) {
+                    layer.msg('uid 只能是数字',{anim: 6});
+                    return false;
+                }
+                layer.close(index);     // 关闭输入框
+                ajaxUserList(val);
+            });
+
+        layer.style(index1, {
+            "background-color": 'rgba(225,225,225,0.6)',
+            "width":'200px',
+            "height":'120px'
+            /*"opacity": 0.0*/
         });
     });
     

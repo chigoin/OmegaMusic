@@ -14,22 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+            <state relative-caret-position="278">
+              <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,8 +32,36 @@
       <file leaf-file-name="tippy.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/tippy.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="407">
               <caret column="13867" selection-start-column="13867" selection-end-column="13867" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="column_head.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/column_head.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugns/layer/skin/new_theme/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animation.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/animation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -50,8 +69,8 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2073">
-              <caret line="192" column="13" lean-forward="true" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="208" column="30" lean-forward="true" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -61,11 +80,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="player.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/player.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="268" column="17" lean-forward="true" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
+              <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pretty.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/pretty.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6435" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="small.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/small.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,11 +144,11 @@
         <option value="$PROJECT_DIR$/plugns/layer/mobile/need/layer.css" />
         <option value="$PROJECT_DIR$/plugns/layer/skin/default/layer.css" />
         <option value="$PROJECT_DIR$/css/animation.css" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
-        <option value="$PROJECT_DIR$/plugns/layer/skin/new_theme/style.css" />
         <option value="$PROJECT_DIR$/js/tippy_introduce.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/player.css" />
+        <option value="$PROJECT_DIR$/js/functions.js" />
+        <option value="$PROJECT_DIR$/plugns/layer/skin/new_theme/style.css" />
       </list>
     </option>
   </component>
@@ -127,45 +162,81 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-66" />
-    <option name="y" value="27" />
-    <option name="width" value="1347" />
-    <option name="height" value="723" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-176" />
+    <option name="y" value="153" />
+    <option name="width" value="1346" />
+    <option name="height" value="598" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OmegaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmegaMusic" type="462c0819:PsiDirectoryNode" />
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OmegaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmegaMusic" type="462c0819:PsiDirectoryNode" />
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OmegaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmegaMusic" type="462c0819:PsiDirectoryNode" />
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="plugns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="plugns" type="462c0819:PsiDirectoryNode" />
+              <item name="layer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="plugns" type="462c0819:PsiDirectoryNode" />
+              <item name="layer" type="462c0819:PsiDirectoryNode" />
+              <item name="skin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmegaMusic-v1.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmegaMusic-v1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="plugns" type="462c0819:PsiDirectoryNode" />
+              <item name="layer" type="462c0819:PsiDirectoryNode" />
+              <item name="skin" type="462c0819:PsiDirectoryNode" />
+              <item name="new_theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="time&#9;null&#9;null&#10;musicin&#9;null&#9;null&#10;login&#9;null&#9;null&#10;musicinfo&#9;null&#9;null&#10;lay&#9;null&#9;null&#10;layer&#9;FILE&#9;file://E:/PhpFile/OmegaMusic/plugns/layer&#10;share&#9;null&#9;null&#10;info&#9;null&#9;null&#10;voice&#9;null&#9;null&#10;voc&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OmegaMusic" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -212,55 +283,43 @@
       <workItem from="1530838862230" duration="22509000" />
       <workItem from="1530876000312" duration="6520000" />
       <workItem from="1530925529537" duration="6055000" />
+      <workItem from="1530952796041" duration="1163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93389000" />
+    <option name="totallyTimeSpent" value="94552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23027375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07174888" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.24590164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.12298682" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5007474" side_tool="true" weight="0.24304539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007474" side_tool="true" weight="0.24304539" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.15812592" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2541106" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" sideWeight="0.5007474" side_tool="true" weight="0.24304539" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.21010248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -273,7 +332,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5007474" side_tool="true" weight="0.24304539" />
@@ -286,27 +345,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/background-blur.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/column.png" />
     <entry file="file://$PROJECT_DIR$/images/first_page.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/column_head.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/plugns/layer/skin/default/icon-ext.png">
@@ -429,22 +472,8 @@
     <entry file="file://$PROJECT_DIR$/css/jquery.mCustomScrollbar.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/small.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/icon.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/animation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/player.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugns/layer/skin/new_theme/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="74" lean-forward="true" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugns/killie/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -474,10 +496,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/tippy_introduce.js" />
+    <entry file="file://$PROJECT_DIR$/js/tippy.all.js" />
+    <entry file="file://$PROJECT_DIR$/js/tippy.js" />
+    <entry file="file://$PROJECT_DIR$/js/dialog.js" />
+    <entry file="file://$PROJECT_DIR$/css/player.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pretty.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/small.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tippy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret column="13867" selection-start-column="13867" selection-end-column="13867" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/column_head.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2073">
-          <caret line="192" column="13" lean-forward="true" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="208" column="30" lean-forward="true" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -486,59 +551,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tippy_introduce.js">
+    <entry file="file://$PROJECT_DIR$/plugns/layer/skin/new_theme/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="462">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tippy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret column="13867" selection-start-column="13867" selection-end-column="13867" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tippy.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tippy.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dialog.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        <state relative-caret-position="278">
+          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/player.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="268" column="17" lean-forward="true" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
         </state>
       </provider>
     </entry>

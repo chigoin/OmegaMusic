@@ -125,6 +125,7 @@ body {
     display: none;
 }
 .header {
+    top: 0px;
     height: 100px;
     width: 100%;
     position: absolute;
@@ -195,7 +196,7 @@ body {
 .btn-bar {
     position: absolute;
     display: inline-block;
-    left: 20%;
+    left: 15%;
     right: 400px;
     height: 55px;
 }
@@ -242,7 +243,49 @@ body {
     display: none;
 }
 
-/* 搜索工具样式 */
+form {
+    position: absolute;
+    right: 100px;
+    width: 200px;
+    margin-top: 5px;
+    top: 30px;
+}
+
+
+.searchForm input, .searchForm button {
+    outline: none;
+    background: transparent;
+    color: white;
+    border-radius: 30px;
+}
+.searchForm input {
+    width: 200px;
+    height: 42px;
+    padding-left: 15px;
+    border: 1px solid #F9F0DA;
+}
+.searchForm button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    cursor: pointer;
+}
+.searchForm button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.searchForm input:focus {
+    border-color: #311c24
+}
+
+
+
+/*!* 搜索工具样式 *!
 #search-area {
     padding: 25px 15px;
 }
@@ -270,7 +313,7 @@ body {
     white-space: nowrap;
     text-overflow: clip;
     overflow: hidden;
-}
+}*/
 .radio-group>label {
     margin-right: 10px;
     cursor: pointer;

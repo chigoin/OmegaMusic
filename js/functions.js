@@ -151,11 +151,12 @@ $(function(){
                 ajaxUrl(musicList[rem.dislist].item[num], ajaxShare);
             break;
             case "delete":  //清除列表里的一项
+                layer.msg("已从列表中删除");
                 listDelete(num,rem.dislist);
             break;
             case "add":  //add
                 addLike(musicList[rem.dislist].item[num]);
-                alert("添加成功");
+                layer.msg("添加成功");
                 break;
         }
         return true;

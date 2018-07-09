@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="264">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,11 +43,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1603">
-              <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
+            <state relative-caret-position="283">
+              <caret line="154" column="44" lean-forward="true" selection-start-line="154" selection-start-column="44" selection-end-line="154" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -69,8 +69,8 @@
       <file leaf-file-name="player.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/player.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="914" column="29" lean-forward="true" selection-start-line="914" selection-start-column="29" selection-end-line="914" selection-end-column="29" />
+            <state relative-caret-position="-304">
+              <caret line="603" column="19" selection-start-line="603" selection-start-column="19" selection-end-line="603" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -135,9 +135,9 @@
       <find>Delete</find>
       <find>listDelete</find>
       <find>add</find>
-      <find>share</find>
       <find>addLike</find>
       <find>fm</find>
+      <find>share</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/css/animation.css" />
         <option value="$PROJECT_DIR$/plugns/layer/skin/new_theme/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/css/player.css" />
+        <option value="$PROJECT_DIR$/js/functions.js" />
       </list>
     </option>
   </component>
@@ -251,7 +251,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="radio&#9;null&#9;null&#10;searchBox&#9;null&#9;null&#10;header&#9;null&#9;null&#10;down&#9;null&#9;null&#10;time&#9;null&#9;null&#10;musicin&#9;null&#9;null&#10;login&#9;null&#9;null&#10;musicinfo&#9;null&#9;null&#10;lay&#9;null&#9;null&#10;layer&#9;FILE&#9;file://E:/PhpFile/OmegaMusic/plugns/layer&#10;share&#9;null&#9;null&#10;info&#9;null&#9;null&#10;voice&#9;null&#9;null&#10;voc&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="addLi&#9;null&#9;null&#10;radio&#9;null&#9;null&#10;searchBox&#9;null&#9;null&#10;header&#9;null&#9;null&#10;down&#9;null&#9;null&#10;time&#9;null&#9;null&#10;musicin&#9;null&#9;null&#10;login&#9;null&#9;null&#10;musicinfo&#9;null&#9;null&#10;lay&#9;null&#9;null&#10;layer&#9;FILE&#9;file://E:/PhpFile/OmegaMusic/plugns/layer&#10;share&#9;null&#9;null&#10;info&#9;null&#9;null&#10;voice&#9;null&#9;null&#10;voc&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/git/Git/cmd/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -303,12 +303,12 @@
       <workItem from="1530946434098" duration="5154000" />
       <workItem from="1530952946803" duration="1869000" />
       <workItem from="1531100234474" duration="1883000" />
-      <workItem from="1531119474170" duration="14315000" />
+      <workItem from="1531119474170" duration="15006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117191000" />
+    <option name="totallyTimeSpent" value="117882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -577,29 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1603">
-          <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/player.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="914" column="29" lean-forward="true" selection-start-line="914" selection-start-column="29" selection-end-line="914" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -614,6 +595,25 @@
             <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/player.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="603" column="19" selection-start-line="603" selection-start-column="19" selection-end-line="603" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="154" column="44" lean-forward="true" selection-start-line="154" selection-start-column="44" selection-end-line="154" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

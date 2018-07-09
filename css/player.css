@@ -583,7 +583,7 @@ body {
     right: 10px;
     top: 195px;
     bottom: 10px;
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
     color: #bdbdbe;
     color: rgba(225,225,225,.8);
@@ -596,12 +596,12 @@ body {
     width: 100%;
     top: 0;
     bottom: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 #lyric>li {
     word-break: keep-all;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: auto;
     text-overflow: ellipsis;
 }
 /* 正在播放的那一句歌词 */

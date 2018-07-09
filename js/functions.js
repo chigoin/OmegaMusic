@@ -72,6 +72,21 @@ $(function(){
             case "sheet":   // 播放列表
                 dataBox("sheet");    // 在主界面显示出音乐专辑
             break;
+
+            case "FM": //FM
+            function rd(n,m){
+
+                var c = m-n+1;
+                return Math.floor(Math.random() * c + n);
+
+            }
+                var List6 =  rd(1,musicList[2].item.length);
+                ajaxUrl(musicList[2].item[List6], play);
+                rem.playid = List6;
+                rem.playlist = 2;
+                if_recommend = false//改动
+            break;
+
         }
     });
     
@@ -113,6 +128,7 @@ $(function(){
                 '<span class="list-icon icon-download" data-function="download" title="点击下载这首歌"></span>' +
                 '<span class="list-icon icon-share" data-function="share" title="点击分享这首歌"></span>' +
                 '<span class="list-icon icon-delete" data-function="delete" title="点击删除这首歌"></span>' +
+                '<span class="list-icon icon-add" data-function="add" title="点击添加这首歌"></span>'+
             '</div>';
             target.html(html);
             $(this).data("loadmenu", true);
@@ -120,7 +136,7 @@ $(function(){
     });
     
     // 列表中的菜单点击
-    $(".music-list").on("click",".icon-play,.icon-download,.icon-share,.icon-delete", function() {
+    $(".music-list").on("click",".icon-play,.icon-download,.icon-share,.icon-delete,.icon-add", function() {
         var num = parseInt($(this).parent().data("no"));
         if(isNaN(num)) return false;
         switch($(this).data("function")) {
@@ -137,6 +153,10 @@ $(function(){
             case "delete":  //清除列表里的一项
                 listDelete(num,rem.dislist);
             break;
+            case "add":  //add
+                addLike(musicList[rem.dislist].item[num]);
+                alert("添加成功");
+                break;
         }
         return true;
     });
@@ -174,33 +194,33 @@ $(function(){
                 // value: '',  // 默认值
                 btn: ['确定', '取消', '帮助'],
                 btn3: function(index, layero){
-                    var index2= layer.open({
+                var index2= layer.open({
                         skin: 'layui-layer-neo',
                         title: '如何获取您的网易云UID？'
                         ,shade: 0.6 //遮罩透明度
-                        ,anim: 0 //0-6的动画形式，-1不开启
+                         ,anim: 0 //0-6的动画形式，-1不开启
                         ,content:
-                        '1、首先<a href="http://music.163.com/" target="_blank">点我(http://music.163.com/)</a>打开网易云音乐官网<br>' +
+                         '1、首先<a href="http://music.163.com/" target="_blank">点我(http://music.163.com/)</a>打开网易云音乐官网<br>' +
                         '2、然后点击页面右上角的“登录”，登录您的账号<br>' +
                         '3、点击您的头像，进入个人中心<br>' +
-                        '4、此时<span style="color:#31e1ff">浏览器地址栏</span> <span style="color: #a757ea">/user/home?id=</span> 后面的<span style="color:#8fffb2">数字</span>就是您的网易云 UID'
-                    });
+                         '4、此时<span style="color:#31e1ff">浏览器地址栏</span> <span style="color: #a757ea">/user/home?id=</span> 后面的<span style="color:#8fffb2">数字</span>就是您的网易云 UID'
+                });
                     layer.style(index2, {
                         "background-color": 'rgba(225,225,225,0.6)',
 
                         /*"opacity": 0.0*/
                     });
 
-                }
-            },
-            function(val, index){   // 输入后的回调函数
-                if(isNaN(val)) {
-                    layer.msg('uid 只能是数字',{anim: 6});
-                    return false;
-                }
-                layer.close(index);     // 关闭输入框
-                ajaxUserList(val);
-            });
+            }
+        },
+        function(val, index){   // 输入后的回调函数
+            if(isNaN(val)) {
+                layer.msg('uid 只能是数字',{anim: 6});
+                return false;
+            }
+            layer.close(index);     // 关闭输入框
+            ajaxUserList(val);
+        });
 
         layer.style(index1, {
             "background-color": 'rgba(225,225,225,0.6)',
@@ -369,33 +389,23 @@ function musicInfo(list, index) {
         // 'url: "' + music.url + '"');
     }
 }
+/*
+
+'    <div class="search-group">' +
+'        <input type="text" name="wd" id="search-wd" placeholder="搜索歌手、歌名、专辑" autofocus required>' +
+'        <button class="search-submit" type="submit">搜 索</button>' +
+'    </div>' +
+*/
 
 // 展现搜索弹窗
 function searchBox() {
-    var tmpHtml = '<form onSubmit="return searchSubmit()"><div id="search-area">' + 
-    '    <div class="search-group">' + 
-    '        <input type="text" name="wd" id="search-wd" placeholder="搜索歌手、歌名、专辑" autofocus required>' + 
-    '        <button class="search-submit" type="submit">搜 索</button>' + 
-    '    </div>' + 
-    '    <div class="radio-group" id="music-source">' + 
-    '       <label><input type="radio" name="source" value="netease" checked=""> 网易云</label>' + 
-    '       <label><input type="radio" name="source" value="tencent"> QQ</label>' + 
-    '       <label><input type="radio" name="source" value="xiami"> 虾米</label>' + 
-    '       <label><input type="radio" name="source" value="kugou"> 酷狗</label>' + 
-    '       <label><input type="radio" name="source" value="baidu"> 百度</label>' + 
-    '   </div>' + 
-    '</div></form>';
-    layer.open({
-        type: 1,
-        shade: false,
-        title: false, // 不显示标题
-        shade: 0.5,    // 遮罩颜色深度
-        shadeClose: true,
-        content: tmpHtml,
-        cancel: function(){
-        }
+    $(".choose-stage").fadeIn(1500);
+    $("input:radio").on("click", function() {
+        // 这里需要更新
+        rem.source = $("#music-source input[name='source']:checked").val();
+        $(".choose-stage").fadeOut(1500);
     });
-    
+
     // 恢复上一次的输入
     $("#search-wd").focus().val(rem.wd);
     $("#music-source input[name='source'][value='" + rem.source + "']").prop("checked", "checked");
@@ -938,3 +948,23 @@ function playerReaddata(key) {
     key = 'mkPlayer2_' + key;
     return JSON.parse(localStorage.getItem(key));
 }
+
+// add 将当前歌曲加入我喜欢
+function addLike(music) {
+    if(rem.playlist == 1) return true;  // 在播放“我喜欢”列表则不作改变
+    if(music.id !== undefined && music.id !== '') {
+        // 检查歌单中是否有这首歌，如果有则提至前面
+        for(var i=0; i<musicList[1].item.length; i++) {
+            if(musicList[1].item[i].id == music.id && musicList[2].item[i].source == music.source) {
+                musicList[1].item.splice(i, 1); // 先删除相同的
+                i = musicList[1].item.length;   // 找到了，跳出循环
+            }
+        }
+    }
+
+    // 再放到最后一位
+    musicList[1].item.push(music);
+
+    playerSavedata('his', musicList[1].item);  // 保存我喜欢列表
+}
+

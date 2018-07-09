@@ -11,5 +11,4 @@ body .layui-layer-neo .layui-layer-input{
     border-radius:15px;
     border:3px;
     background-color: rgba(225,225,225,0.4);
-    padding-left:15px;/*这里的值可以改变光标的位置*/
 }
